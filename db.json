@@ -1,36 +1,90 @@
 {
-    "posts": [
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" },
+    { "id": 2, "title": "my local json-server", "author": "ofenloch" },
+    { "id": 3, "title": "json-server", "author": "gerd" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1, "author": "ofenloch" },
+    { "id": 2, "body": "some comment", "postId": 2, "author": "typicode"  }
+  ],
+  "profiles": [
+    { "name": "typicode", "mail": "typicode@hmail.com" },
+    { "name": "ofenloch", "mail": "ofenloch@imail.com" },
+    { "name": "gerd", "mail": "gerd@jmail.com" }
+  ],
+  "employees" : [
         {
-            "id": 1,
-            "title": "Post 1"
+          "id" : 4620,
+          "emp_no" : 4620,
+          "last_name" : "Aaby",
+          "first_name" : "Elza",
+          "middle_names" : "",
+          "gender" : "F",
+          "date_of_birth" : "1962-07-28",
+          "date_of_hiring" : "1920-01-01",
+          "date_of_probation_end" : "1920-07-01",
+          "date_of_termination" : "2222-01-01",
+          "email" : "nobody@gea.com",
+          "ETWebID" : "ETWebID_4620",
+          "WorkDayID" : 4620,
+          "EmployeeID" : 4620,
+          "fullname" : "",
+          "aliases" : ""
         },
         {
-            "id": 2,
-            "title": "Post 2"
+          "id" : 1554,
+          "emp_no" : 1554,
+          "last_name" : "Aadland",
+          "first_name" : "Orville",
+          "middle_names" : "Gonzalo Mara",
+          "gender" : "M",
+          "date_of_birth" : "1994-10-05",
+          "date_of_hiring" : "1920-01-01",
+          "date_of_probation_end" : "1920-07-01",
+          "date_of_termination" : "2222-01-01",
+          "email" : "nobody@gea.com",
+          "ETWebID" : "ETWebID_1554",
+          "WorkDayID" : 1554,
+          "EmployeeID" : 1554,
+          "fullname" : "",
+          "aliases" : ""
         },
         {
-            "id": 3,
-            "title": "Post 3"
+          "id" : 19509,
+          "emp_no" : 19509,
+          "last_name" : "Aagaard",
+          "first_name" : "Kenneth",
+          "middle_names" : "",
+          "gender" : "F",
+          "date_of_birth" : "1987-07-06",
+          "date_of_hiring" : "1920-01-01",
+          "date_of_probation_end" : "1920-07-01",
+          "date_of_termination" : "2222-01-01",
+          "email" : "nobody@gea.com",
+          "ETWebID" : "ETWebID_19509",
+          "WorkDayID" : 19509,
+          "EmployeeID" : 19509,
+          "fullname" : "",
+          "aliases" : ""
+        },
+        {
+          "id" : 8996,
+          "emp_no" : 8996,
+          "last_name" : "Aalderink",
+          "first_name" : "Zana",
+          "middle_names" : "",
+          "gender" : "F",
+          "date_of_birth" : "1995-07-29",
+          "date_of_hiring" : "1920-01-01",
+          "date_of_probation_end" : "1920-07-01",
+          "date_of_termination" : "2222-01-01",
+          "email" : "nobody@gea.com",
+          "ETWebID" : "ETWebID_8996",
+          "WorkDayID" : 8996,
+          "EmployeeID" : 8996,
+          "fullname" : "",
+          "aliases" : ""
         }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment to post one ...",
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "body": "another comment to post 1: .....",
-            "postId": 1
-        },
-        {
-            "id": 3,
-            "body": "yet another comment, this time for post 2 ...",
-            "postId": 2
-        }
-    ],
-    "profile": {
-        "name": "ofenloch"
-    }
+      ]
 }
